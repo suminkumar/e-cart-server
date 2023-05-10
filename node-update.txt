@@ -1,0 +1,35 @@
+                        server with node & express(deployable server)
+
+        1. create server folder
+        2. inside server folder genereate package.json file : npm init -y
+        3. install following packages : express, dotenv, cors, mongoose     
+            npm i express dotenv cors mongoose
+        4. create index.js (entry file) in server folder    
+        5. create .env file to store all the environmental variables in the server folder
+        6. create .gitignore file in server folder
+        7. import dotenv, express, cors in index.js
+        8. create server app using express
+        9. use cors and express.json() to your server app
+        10. create port to listen your server app
+        11. Run/Listen server app in the specified port
+        12. create a routes folder to hold all api rqst in server folder, create router.js fle to resolve api request from client
+                - using express.router object, we define routes for all api
+                - inside each routes we have give logic to resolve api
+        13. to define logic to resolving api, create controller folder,   inside create productCOntroller.js file     
+
+
+                Database setup - MongoDb Atlas
+
+        1. to get connectionstring : open atlas, go to database, click connect button, then choose connect with application, copy connection string 
+            "mongodb+srv://suminkumarsunil1999:Ecart@cluster0.ubbunq5.mongodb.net/cart?retryWrites=true&w=majority"
+        2. create db folder in server , where we use mongoose to connect mongodb with node app
+        3. import connection file into index.js     
+        4. to defone schema for data to be stored in db, craete model folder in server app, inside create productionSchema file  
+                    - import mongoose
+                    - using mongoose define schema
+                    - create model/collection using above schema
+                    - export model   
+
+                
+        
+
